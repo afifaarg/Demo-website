@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Categories = () => {
   // Array of categories with name and image
   const categories = [

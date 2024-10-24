@@ -139,7 +139,7 @@ export default function NavBar() {
               : "opacity-0 scale-95 pointer-events-none fixed inset-0 h-screen z-10 md:hidden"
           }`}
         >
-          <div className="rounded-lg shadow-lg h-screen ring-1 bg-primary bg-opacity-75 backdrop-blur-sm divide-y-2 divide-gray-50">
+          <div className="rounded-lg shadow-lg h-screen ring-1 bg-black/20 bg-opacity-75 backdrop-blur-sm divide-y-2 divide-gray-50">
             <div className="px-5 flex items-center justify-between py-2">
               <div></div>
               <button

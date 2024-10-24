@@ -166,7 +166,7 @@ export default function ProductPage() {
           <div className="flex items-center space-x-4 my-4">
             <div>
               <div className="rounded-lg flex py-1 ">
-                {productData.show_price == true ? (
+                {productData.show_price === true ? (
                   <p className="text-lg font-bold leading-tight text-gray-900 dark:text-white">
                     {productData.price} DZD
                   </p>

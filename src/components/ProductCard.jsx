@@ -156,7 +156,7 @@ export default function Product({ product }) {
           </li>
           <li className="flex items-center gap-2">
             {/* Show price or badge */}
-            {product.id % 2 === 0 ? (
+            {product.show_price == true ? (
               <p className="text-lg font-bold leading-tight text-gray-900 dark:text-white">
                 {product.price} DZD
               </p>

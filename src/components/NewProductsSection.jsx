@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css"; // Import slick CSS
 import "slick-carousel/slick/slick-theme.css"; // Import slick theme CSS
 import { Link } from "react-router-dom";
 
-const NewProductsSlider = () => {
+const newProductsSection = () => {
   const [newProducts, setNewProducts] = useState([]);
 
   useEffect(() => {
@@ -89,4 +89,4 @@ const NewProductsSlider = () => {
   );
 };
 
-export default NewProductsSlider;
+export default newProductsSection;

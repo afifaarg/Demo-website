@@ -54,11 +54,13 @@ const Categories = () => {
           >
             {/* Add a wrapper for the image to control size */}
             <div className="overflow-hidden cursor-pointer rounded-xl h-60 shadow-lg transition-transform duration-300 ease-in-out transform group-hover:-translate-y-2">
-              <img
-                src={category.image}
-                alt={category.name}
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
-              />
+              <Link to={"/products"}>
+                <img
+                  src={category.image}
+                  alt={category.name}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
+                />
+              </Link>
             </div>
             {/* Text below the card */}
             <h3 className="text-center text-xl font-bold mt-2 text-primary transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100">

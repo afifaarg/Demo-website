@@ -112,7 +112,7 @@ export default function NavBar() {
 
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
               <Link
-                to="/cart"
+                to="/"
                 className="px-2 whitespace-nowrap text-primary inline-flex items-center justify-center text-secondary font-bold cursor-pointer hover:text-secondary-dark"
               >
                 <svg

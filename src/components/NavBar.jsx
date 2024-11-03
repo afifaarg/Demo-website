@@ -84,26 +84,26 @@ export default function NavBar() {
                 </div> */}
               </div>
 
-              <a
-                href="/products"
+              <Link 
+                to="/products"
                 className="text-base font-medium text-secondary-light hover:text-primary"
               >
                 Nouveautés
-              </a>
-              <a
-                href="#about"
+              </Link>
+             <Link 
+                to="/products"
                 className="text-base font-medium text-secondary-light hover:text-primary"
               >
                 PC-GAMER
-              </a>
-              <a
-                href="#Accessoires"
+             </Link>
+             <Link 
+                to="/products"
                 className="text-base font-medium text-secondary-light hover:text-primary"
               >
                 Accessoires
-              </a>
+              </Link>
               <Link
-                to="#"
+                to="/products"
                 className="text-base font-medium text-secondary-light hover:text-primary"
               >
                 Peripheriques
@@ -172,19 +172,19 @@ export default function NavBar() {
                 Nouveautés
               </Link>
               <Link
-                to="/#about"
+                to="/products"
                 className="block text-secondary-dark hover:text-secondary text-xl font-semibold"
               >
                 PC-GAMER
               </Link>
               <Link
-                to="/#faq"
+                to="/products"
                 className="block text-secondary-dark hover:text-secondary text-xl font-semibold"
               >
                 Accessoires
               </Link>
               <Link
-                to="/Peripheriques"
+                to="/products"
                 className="block text-secondary-dark hover:text-secondary text-xl font-semibold"
               >
                 Peripheriques
@@ -192,7 +192,7 @@ export default function NavBar() {
             </div>
             <div className="flex items-center py-4 space-x-2">
               <Link
-                to="/cart"
+                to="/"
                 className="px-2 whitespace-nowrap inline-flex items-center justify-center  text-secondary rounded-md shadow-sm text-base font-medium font-bold text-primary cursor-pointer hover:text-secondary-dark"
               >
                 <svg
